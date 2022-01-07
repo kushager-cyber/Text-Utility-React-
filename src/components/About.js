@@ -1,23 +1,5 @@
-import { isLabelWithInternallyDisabledControl } from "@testing-library/user-event/dist/utils";
 import React from "react";
-import react, { useState } from "react";
-
 export default function About(props) {
-  const [btnText, setBtnText] = useState("Enable Dark Mode");
-
-  // let myStyle;
-  // if (props.mode == "dark") {
-  //   myStyle = {
-  //     color: " white",
-  //     backgroundColor: "black",
-  //   };
-  // } else {
-  //   myStyle = {
-  //     color: " black",
-  //     backgroundColor: "white",
-  //   };
-  // }
-
   return (
     <div
       className="container"

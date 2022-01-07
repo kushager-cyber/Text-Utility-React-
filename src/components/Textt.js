@@ -1,4 +1,4 @@
-import react, { useState } from "react";
+import { useState } from "react";
 import React from "react";
 
 export default function Textt(props) {
@@ -19,7 +19,6 @@ export default function Textt(props) {
     const ntext = "";
     setText(ntext);
   };
-  let x = 0;
 
   const [text, setText] = useState("Enter the Text Here");
 

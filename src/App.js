@@ -1,9 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Textt from "./components/Textt";
 import About from "./components/About";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import React, { useState } from "react";
 
