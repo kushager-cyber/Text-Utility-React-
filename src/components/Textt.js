@@ -25,7 +25,7 @@ export default function Textt(props) {
     textt.select();
     navigator.clipboard.writeText(textt.value);
   };
-  const [text, setText] = useState("Enter the Text Here");
+  const [text, setText] = useState(" ");
 
   return (
     <>
