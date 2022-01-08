@@ -20,6 +20,11 @@ export default function Textt(props) {
     setText(ntext);
   };
 
+  const copyUpClick = () => {
+    var textt = document.getElementById("mybox");
+    textt.select();
+    navigator.clipboard.writeText(textt.value);
+  };
   const [text, setText] = useState("Enter the Text Here");
 
   return (
@@ -56,6 +61,9 @@ export default function Textt(props) {
               onClick={LhandleUpClick}
             >
               Convert to lowercase
+            </button>
+            <button className="btn btn-primary mx-2 my-2" onClick={copyUpClick}>
+              Copy Text
             </button>
             <button
               className="btn btn-primary mx-2 my-2"
